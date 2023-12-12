@@ -9,7 +9,9 @@
 </head>
 <body>
     <section>
-        <h1>Reproductor de Musica</h1>
+        <header>
+            <h1>Spotyfran</h1>
+        </header>
         <section class="contenedor">
             <div class="datos">
                 <h2 id="titulo">Titulo</h2>
@@ -17,11 +19,22 @@
                 <img src="" alt="portada" id="portada">
             </div>
             <div class="botones">
+                <button id="previous">&larr;</button>
                 <button id="play">Play</button>
-                <button id="pause">Pause</button>
                 <button id="stop">Stop</button>
+                <label for="volume-slider">Volume:</label>
                 <input type="range" id="volume-slider">
+                <button id="next">&rarr;</button>
+                
 
+            </div>
+            <div>
+                <label for="duration-slider">Duracion</label>
+                <input type="range" id="duration-slider" value="0">
+                <div class="time">
+                    <p id="currentTime"></p><p>/</p><p id="totalTime"></p>
+                </div>
+                
             </div>
         </section>
     </section>
