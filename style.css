@@ -1,0 +1,13 @@
+footer{
+    background-color: grey;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 5vh;
+}
+footer a img{
+    width: 5rem;
+    height: 5rem;
+    margin: 0 10px;
+}
