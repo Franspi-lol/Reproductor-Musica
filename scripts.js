@@ -18,7 +18,7 @@ let longRoad = new Canciones(
   "Love is a long road",
   "Tom Petty",
   "./Tom-Petty-Love-Is-A-Long-Road-From-Grand-Theft-Auto-VI-(Celebnob.com).mp3",
-  "/img/longRoad.png"
+  "./img/longRoad.png"
 );
 
 let fire = new Canciones(
@@ -35,7 +35,14 @@ let dreamOn = new Canciones(
   "./img/dreamOn.jpg"
 );
 
-let audioArray = [risingSun, longRoad, fire, dreamOn];
+let iDontWantToMissAThing = new Canciones(
+  "I Don't Want To Miss A Thing",
+  "Aerosmith",
+  "./I_Dont_Wanna_Miss_a_Thing.mp3",
+  "./img/Idontwanttomissathing.jpg"
+);
+
+let audioArray = [risingSun, longRoad, fire, dreamOn, iDontWantToMissAThing];
 
 document.addEventListener("DOMContentLoaded", function () {
   /* botones */
