@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
   });
 
-  volume.addEventListener("change", function (e) {
+  volume.addEventListener("input", function (e) {
     /* barra volumen */ audio.volume = e.currentTarget.value / 100;
   });
 
